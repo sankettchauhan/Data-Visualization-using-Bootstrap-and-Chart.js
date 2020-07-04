@@ -1,0 +1,15 @@
+.apply-bg-color {
+  background: green;
+}
+.zoom {
+  transition: all 0.1s ease-in;
+}
+.zoom:hover {
+  transform: scale(1.3);
+  border: 0 !important;
+  background: #ddd;
+  z-index: 2;
+}
+.nav-item {
+  cursor: pointer;
+}
